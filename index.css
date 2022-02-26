@@ -1,0 +1,43 @@
+/* base styles */
+
+body {
+  background: #f2f2f2;
+  text-align: center;
+  font-size: 1.4em;
+  font-family: Verdana;
+}
+form {
+  background: white;
+  margin: 200px auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+form .field {
+  display: flex;
+  align-items: center;
+}
+form input {
+  margin: 0 16px;
+  font-size: 0.8em;
+  border: 2px solid #777;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.valid {
+  border: green 1px solid;
+  outline-color: green;
+  transition: all ease-in 0.5s;
+}
+
+.tick {
+  opacity: 0;
+  color: green;
+  transition: all ease-in 0.5s;
+}
+
+.valid-tick {
+  opacity: 1;
+}
+/* solution styles */ ;
